@@ -1,7 +1,10 @@
 # mkcp
+
 :open_file_folder: Make and Copy files / folders recursively.
 
-## Installation
+[![Build Status](https://travis-ci.com/arakilian0/mkcp.svg?branch=master)](https://travis-ci.com/arakilian0/mkcp) [![npm version](https://img.shields.io/npm/v/mkcp.svg?style=flat)](https://www.npmjs.com/package/mkcp) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/arakilian0/mkcp/blob/master/LICENSE.md)
+
+## Install
 ```
 npm install mkcp
 ```
