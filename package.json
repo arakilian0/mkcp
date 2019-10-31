@@ -1,7 +1,7 @@
 {
   "name": "mkcp",
-  "version": "0.1.0",
-  "description": "Make and Copy files/folders recursively.",
+  "version": "0.1.1",
+  "description": "Make and Copy files / folders recursively.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -10,6 +10,14 @@
     "mkdir",
     "copy"
   ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/arakilian0/mkcp.git"
+	},
+	"homepage": "https://github.com/arakilian0/mkcp#readme",
+	"bugs": {
+		"url": "https://github.com/arakilian0/mkcp/issues"
+	},
   "author": "Michael Arakilian",
   "license": "MIT",
   "dependencies": {

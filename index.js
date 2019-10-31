@@ -32,7 +32,7 @@ module.exports = function(src,dest) {
 						});
 					}
 					if(isWin) {
-						print('windows feature coming soon...');
+						print(`${prefix}: windows feature not yet available`);
 					}
 				});
 			};

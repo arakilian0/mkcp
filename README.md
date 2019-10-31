@@ -1,4 +1,4 @@
-# **mkcp**
+# mkcp
 :open_file_folder: Make and Copy files / folders recursively.
 
 ## Installation
