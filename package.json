@@ -1,0 +1,19 @@
+{
+  "name": "mkcp",
+  "version": "0.1.0",
+  "description": "Make and Copy files/folders recursively.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mkdir",
+    "copy"
+  ],
+  "author": "Michael Arakilian",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
