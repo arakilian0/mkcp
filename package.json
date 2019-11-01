@@ -1,6 +1,6 @@
 {
   "name": "mkcp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Make and Copy files / folders recursively.",
   "main": "index.js",
   "scripts": {

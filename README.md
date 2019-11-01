@@ -10,21 +10,11 @@ npm install mkcp
 ```
 
 ## Usage
-After importing the module, simply pass the function a **source** (target file or folder path) and a **destination** (new output path). If the destination path does not exist, it is created for you.
-
-**Import Module**
 ```js
 const mkcp = require('mkcp');
-```
 
-**Copy File**
-```js
-mkcp('dir/example.txt', 'dest/');
-```
-
-**Copy Folder**
-```js
-mkcp('dir/', 'dest/');
+mkcp('example.txt', 'dest'); // copy file
+mkcp('examples', 'dest'); // copy directory
 ```
 
 ## License
