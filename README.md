@@ -8,12 +8,12 @@
 
 ##### For programmatic usage
 
-```
+```bash
 npm install mkcp
 ```
 ##### For command line usage
 
-```
+```bash
 npm install -g mkcp
 ```
 
@@ -24,8 +24,8 @@ npm install -g mkcp
 ```js
 const mkcp = require('mkcp');
 
-mkcp('example.txt', 'dest'); // copy file
-mkcp('examples', 'dest'); // copy directory
+mkcp('myfile.txt', 'newfolder'); // copy file
+mkcp('myfolder', 'newfolder'); // copy directory
 ```
 ##### Command Line
 

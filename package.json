@@ -1,6 +1,6 @@
 {
   "name": "mkcp",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Node.js based, file and folder duplication utility.",
   "main": "index.js",
   "scripts": {
