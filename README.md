@@ -6,12 +6,12 @@
 
 ## Install
 
-###### For programmatic usage
+##### For programmatic usage
 
 ```
 npm install mkcp
 ```
-###### For command line usage
+##### For command line usage
 
 ```
 npm install -g mkcp
@@ -19,7 +19,7 @@ npm install -g mkcp
 
 ## Usage
 
-###### Programmatic
+##### Programmatic
 
 ```js
 const mkcp = require('mkcp');
@@ -27,7 +27,7 @@ const mkcp = require('mkcp');
 mkcp('example.txt', 'dest'); // copy file
 mkcp('examples', 'dest'); // copy directory
 ```
-###### Command Line
+##### Command Line
 
 ```bash
 mkcp myfile.txt newfolder
