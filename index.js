@@ -10,7 +10,7 @@ const print = console.log,
 let newDest;
 
 module.exports = function(src,dest) {
-	if(!src || !dest) { return print(`${prefix}: function needs a source path and destination path`) }
+	if(!src || !dest) { return print(`${prefix}: function needs a source and destination path`) }
 	else {
 		if(!fs.existsSync(resolve(src))) { return print(`${prefix}: the provided source path does not exist`) }
 		else {

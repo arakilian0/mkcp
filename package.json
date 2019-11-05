@@ -1,6 +1,6 @@
 {
   "name": "mkcp",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Make and Copy files / folders recursively.",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,19 @@
     "mkdir",
     "copy"
   ],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/arakilian0/mkcp.git"
-	},
-	"homepage": "https://github.com/arakilian0/mkcp#readme",
-	"bugs": {
-		"url": "https://github.com/arakilian0/mkcp/issues"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arakilian0/mkcp.git"
+  },
+  "homepage": "https://github.com/arakilian0/mkcp#readme",
+  "bugs": {
+    "url": "https://github.com/arakilian0/mkcp/issues"
+  },
   "author": "Michael Arakilian",
   "license": "MIT",
+  "bin": {
+    "mkcp": "./bin/cli.js"
+  },
   "dependencies": {
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0"
