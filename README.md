@@ -1,23 +1,44 @@
 # mkcp
 
-:open_file_folder: Make and Copy files / folders recursively.
+:open_file_folder: Node.js based, file and folder duplication utility.
 
 [![Build Status](https://travis-ci.com/arakilian0/mkcp.svg?branch=master)](https://travis-ci.com/arakilian0/mkcp) [![npm version](https://img.shields.io/npm/v/mkcp.svg?style=flat)](https://www.npmjs.com/package/mkcp) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/arakilian0/mkcp/blob/master/LICENSE.md)
 
 ## Install
+
+###### For programmatic usage
+
 ```
 npm install mkcp
 ```
+###### For command line usage
+
+```
+npm install -g mkcp
+```
 
 ## Usage
+
+###### Programmatic
+
 ```js
 const mkcp = require('mkcp');
 
 mkcp('example.txt', 'dest'); // copy file
 mkcp('examples', 'dest'); // copy directory
 ```
+###### Command Line
+
+```bash
+mkcp myfile.txt newfolder
+```
+
+```bash
+mkcp myfolder newfolder
+```
 
 ## License
+
 MIT License
 
 Copyright (c) 2019 Michael Arakilian
